@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navListStyle {
+    @apply z-10 flex flex-col items-center justify-center font-medium text-center duration-500 w-[100%];
+  }
+
+  .navIcon {
+    @apply relative block leading-[75px] text-[1.5em];
+  }
+
+  .list:hover .navIcon {
+    @apply translate-y-[-35px] transition-transform duration-500;
+  }
+
+  .text {
+    @apply absolute text-[14px] font-normal duration-500 opacity-0 translate-y-[20px];
+  }
+
+  .list:hover .text {
+    @apply opacity-100 translate-y-[10px] transition-transform duration-500;
+  }
+
+  .indicator {
+    @apply;
+  }
+}
