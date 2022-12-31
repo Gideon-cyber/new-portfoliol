@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="sticky top-0 flex items-center justify-between max-w-7xl lg:mx-auto mx-4 py-3 lg:py-5">
+    <header className="sticky top-0 flex items-center justify-between max-w-7xl lg:mx-auto mx-4 py-3 lg:py-5 bg-white lg:bg-transparent z-50">
       <motion.h1
         initial={{
           x: -500,

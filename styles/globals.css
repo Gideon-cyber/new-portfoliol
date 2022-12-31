@@ -11,22 +11,26 @@
   }
 
   .navIcon {
-    @apply relative block leading-[75px] text-[1.5em];
+    @apply relative block leading-[75px] text-[1.5em] z-30;
+  }
+
+  .list.active .indicator {
+    @apply translate-y-[-35px] transition-transform duration-500  bg-purple text-white border-[#e0e9f7];
   }
 
   .list:hover .navIcon {
-    @apply translate-y-[-35px] transition-transform duration-500;
+    @apply text-[#a1bbdf] transition-transform duration-500;
   }
 
   .text {
     @apply absolute text-[14px] font-normal duration-500 opacity-0 translate-y-[20px];
   }
 
-  .list:hover .text {
+  .list.active .text {
     @apply opacity-100 translate-y-[10px] transition-transform duration-500;
   }
 
   .indicator {
-    @apply;
+    @apply w-[60px] h-[60px]  border-[6px] border-[white] rounded-[50%] flex  items-center justify-center bg-neutral-50;
   }
 }

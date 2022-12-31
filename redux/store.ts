@@ -1,6 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { combineReducers } from "@reduxjs/toolkit";
 import userReducer from "./userSlice";
+import navReducer from "./navSlice";
 // ...
 
 import {
