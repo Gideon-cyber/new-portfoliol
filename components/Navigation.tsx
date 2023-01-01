@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GrHomeRounded, GrMail } from "react-icons/gr";
 import { RiLightbulbFlashFill } from "react-icons/ri";
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaAward } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { BsPersonFill } from "react-icons/bs";
 import { TbNorthStar } from "react-icons/tb";
@@ -20,6 +20,7 @@ const Navigation = (props: Props) => {
     { icon: BsPersonFill, text: "About" },
     { icon: TbNorthStar, text: "Experience" },
     { icon: RiLightbulbFlashFill, text: "Skills" },
+    { icon: FaAward, text: "Awards" },
     { icon: SiMinutemailer, text: "Contact" },
   ];
   return (
