@@ -45,13 +45,18 @@ const Skills = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen flex flex-col relative lg:text-left lg:flex-row max-w-7xl pl-3 lg:px-10 justify-center mx-auto items-center"
     >
-      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase">
+      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase dark:text-gray-500">
         Skills
       </h2>
 
       <div className="grid grid-cols-4 gap-5">
         {SkillsIcons.map((skill, index) => (
-          <Skill key={index} img={skill?.img} directionLeft={skill.direction} />
+          <Skill
+            key={index}
+            img={skill?.img}
+            directionLeft={skill.direction}
+            className={`${index === 1 && "dark:text-white dark:bg-white"}`}
+          />
         ))}
       </div>
     </motion.div>

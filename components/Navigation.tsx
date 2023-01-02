@@ -25,8 +25,8 @@ const Navigation = (props: Props) => {
   ];
   return (
     <div className="sticky bottom-0 flex items-center justify-center">
-      <div className="relative w-[400px] h-[70px] bg-white rounded-[10px] drop-shadow-lg border border-[#e0e9f7] flex items-center justify-center mx-auto">
-        <ul className="w-[350px] flex items-center justify-between">
+      <div className="relative w-[400px] h-[70px] bg-white dark:bg-primaryDark rounded-[10px] shadow-gray-500 shadow-sm drop-shadow-lg border border-[#e0e9f7] dark:border-[rgb(30,30,30)] flex items-center justify-center mx-auto">
+        <ul className="w-full px-3 flex items-center justify-between">
           {navigation.map((nav, index) => (
             <li
               className={active === index ? "list active" : "list"}

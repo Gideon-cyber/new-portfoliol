@@ -17,7 +17,9 @@ const Hero = (props: Props) => {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div
+      className={`h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden dark:bg-primaryDark`}
+    >
       <BackgroundCircles />
       <Image
         src={ProfilePic}
@@ -25,10 +27,10 @@ const Hero = (props: Props) => {
         className="rounded-full relate h-32 w-32 object-cover mx-auto"
       />
       <div className="z-20">
-        <h2 className="text-sm tracking-[15px] pb-3 w-[250px] mx-auto md:w-auto">
+        <h2 className="text-sm tracking-[15px] pb-3 w-[250px] mx-auto md:w-auto dark:text-gray-500">
           FRONT-END ENGINEER
         </h2>
-        <h1 className="text-4xl lg:text-6xl font-semibold px-10 ">
+        <h1 className="text-4xl lg:text-6xl font-semibold px-10 dark:text-white ">
           <span className="">{text}</span>
           <Cursor cursorColor="#085aca" />
         </h1>

@@ -30,14 +30,16 @@ const Contact = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen flex flex-col relative max-w-full overflow-hidden lg:flex-row text-left justify-evenly mx-auto items-center z-0"
     >
-      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase text-center">
+      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase text-center dark:text-gray-500">
         Contact
       </h2>
 
       <div className="flex flex-col space-y-5">
         <h4 className="lg:text-[24px] leading-[30px] font-semibold text-center">
           I have got just what you need,{" "}
-          <span className="text-purple">Let&apos;s talk.</span>
+          <span className="text-purple dark:text-[#8eb1e2]">
+            Let&apos;s talk.
+          </span>
         </h4>
 
         <div className="space-y-3">
@@ -46,7 +48,7 @@ const Contact = (props: Props) => {
               key={index}
               className="flex items-center space-x-4 justify-center"
             >
-              <detail.icon className="text-purple" />
+              <detail.icon className="text-purple dark:text-[#8eb1e2]" />
 
               <p className="font-semibold text-[14px] lg:text-[16px]">
                 {detail.text}

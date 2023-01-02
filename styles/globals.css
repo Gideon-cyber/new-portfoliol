@@ -11,7 +11,7 @@
   }
 
   .navIcon {
-    @apply relative block leading-[75px] text-[1.5em] z-30;
+    @apply relative block leading-[75px] text-[1.5em] z-30 dark:text-white;
   }
 
   .list.active .indicator {
@@ -22,8 +22,12 @@
     @apply text-[#a1bbdf] transition-transform duration-500;
   }
 
+  .list:focus .navIcon {
+    @apply text-white transition-transform duration-500;
+  }
+
   .text {
-    @apply absolute text-[14px] font-normal duration-500 opacity-0 translate-y-[20px];
+    @apply absolute text-[12px] dark:text-white font-normal duration-500 opacity-0 translate-y-[20px];
   }
 
   .list.active .text {
@@ -31,7 +35,7 @@
   }
 
   .indicator {
-    @apply w-[60px] h-[60px]  border-[6px] border-[white] rounded-[50%] flex  items-center justify-center bg-neutral-50;
+    @apply w-[60px] h-[60px]  border-[6px] border-[white] dark:border-primaryDark rounded-[50%] flex  items-center justify-center bg-neutral-50 dark:bg-primaryDark;
   }
 
   .contactInput {

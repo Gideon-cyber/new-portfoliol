@@ -22,7 +22,7 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen flex flex-col relative max-w-full overflow-hidden lg:flex-row text-left justify-evenly mx-auto items-center z-0"
     >
-      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase text-center">
+      <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase text-center dark:text-gray-500">
         Projects
       </h2>
 
@@ -51,19 +51,19 @@ const Projects = (props: Props) => {
               global firm, renowned for wholesales and retail mobiles and
               accessories as well as wristwatches and phone repair gadgets. It
               was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Next.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Typescript
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 TailwindCSS
               </span>
               .{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Formik and Yup
               </span>{" "}
               was used to collect form data in other for potential clients to
@@ -103,19 +103,19 @@ const Projects = (props: Props) => {
               Flybank is a fintech dashboard built in colaboration with a
               product designer, that shows inflow of cash in and out of the
               users account as well as their account balance. It was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Next.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Typescript
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 TailwindCSS
               </span>
               .{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Redux ToolKit
               </span>{" "}
               was used for state management in other to make the app scalable.
@@ -154,15 +154,15 @@ const Projects = (props: Props) => {
               Served as lead Front-end Engineer for the ERA project. ERA is a
               Decentralized Web app for minting the ERA token used to fund
               disabled people from around the world. It was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 React.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 SCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Redux ToolKit
               </span>{" "}
               used for state management in other to make the app scalable. It
@@ -203,28 +203,28 @@ const Projects = (props: Props) => {
               project. ERA is a Decentralized Web app for minting the ERA token
               used to fund disabled people from around the world. It was built
               with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 React.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 SCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Redux
               </span>{" "}
               used for state management in other to make the app scalable. Other
               libraries used include{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Ether.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Web3.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 day.js
               </span>{" "}
               amongst others.
@@ -263,28 +263,28 @@ const Projects = (props: Props) => {
               I led the rebuild of the company website for LightHouse HR
               Company, a human resource company based in Ibadan, Nigeria. It was
               built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 HTML
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 SCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 JavaScript
               </span>
               .Other libraries used include{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Paystack
               </span>{" "}
               for accepting payments,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 {" "}
                 Elastic Email
               </span>{" "}
               for sending emails and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 AnimateOnScroll Library
               </span>{" "}
               for animations.
@@ -326,24 +326,24 @@ const Projects = (props: Props) => {
               Crwn Clothing E-commerce Web App is a web application project
               where users can other various clothing ranging from male to female
               wares online. It was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 React.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 SCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Redux
               </span>{" "}
               used for state management in other to make the app scalable. Other
               libraries used include{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Stripe
               </span>
               for accepting payment , and
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Google Firebase
               </span>{" "}
               for Login and Logout authentication as well as storing app data.
@@ -384,15 +384,15 @@ const Projects = (props: Props) => {
             <p className="text-[14px]">
               Soundgasm is a landing page for music lovers who love listening to
               their favorite music from around the world. It was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 React.js
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 TailwinCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 Framer Motion
               </span>{" "}
               used for animation.
@@ -431,19 +431,19 @@ const Projects = (props: Props) => {
               I Built a landing page for Easybank, highly responsive and showing
               seemless transitions between various sections of the landing page
               . It was built with{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 HTML
               </span>
               ,{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 SCSS
               </span>{" "}
               and{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 JavaScript
               </span>
               , with the help of{" "}
-              <span className="text-purple font-bold p-1 cursor-pointer">
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
                 AnimateOnScroll Library
               </span>{" "}
               for animations.

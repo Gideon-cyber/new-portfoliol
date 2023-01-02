@@ -5,9 +5,10 @@ import Image from "next/image";
 type Props = {
   img: string;
   directionLeft?: boolean;
+  className: string;
 };
 
-const Skill = ({ img, directionLeft }: Props) => {
+const Skill = ({ img, directionLeft, className }: Props) => {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.div
@@ -17,7 +18,7 @@ const Skill = ({ img, directionLeft }: Props) => {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        className="rounded-full w-10 h-10 lg:w-16 lg:h-16 object-cover object-center border border-[#c9daf1] group-hover:grayscale transition duration-300 ease-in-out flex items-center justify-center"
+        className={`rounded-full p-2 lg:p-0 w-12 h-12 lg:w-16 lg:h-16 object-cover object-center border border-[#c9daf1] group-hover:grayscale transition duration-300 ease-in-out flex items-center justify-center ${className}`}
       >
         <Image src={img} alt="skill" />
       </motion.div>
