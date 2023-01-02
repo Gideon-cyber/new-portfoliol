@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       ) : (
         <div
-          className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth lg:scrollbar lg:scrollbar-track-gray-400/20 lg:scrollbar-thumb-purple/80`}
+          className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth lg:scrollbar lg:scrollbar-track-gray-400/20 lg:scrollbar-thumb-purple/80 bg-white dark:bg-primaryDark`}
         >
           <Header />
           <section id="home" className="snap-start">
