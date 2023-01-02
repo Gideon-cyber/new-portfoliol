@@ -51,7 +51,9 @@ export default function Home() {
           <Image src={Loader} alt="loader" />
         </div>
       ) : (
-        <>
+        <div
+          className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth lg:scrollbar lg:scrollbar-track-gray-400/20 lg:scrollbar-thumb-purple/80`}
+        >
           <Header />
           <section id="home" className="snap-start">
             <Hero />
@@ -92,8 +94,10 @@ export default function Home() {
           >
             <Contact />
           </section>
-          <Navigation />
-        </>
+          <div className="relative w-full flex items-center justify-center">
+            <Navigation />
+          </div>
+        </div>
       )}
     </div>
   );

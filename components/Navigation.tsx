@@ -24,8 +24,8 @@ const Navigation = (props: Props) => {
     { icon: FaAward, text: "Awards" },
   ];
   return (
-    <div className="sticky bottom-0 flex items-center justify-center">
-      <div className="relative w-[400px] h-[70px] bg-white dark:bg-primaryDark rounded-[10px] shadow-gray-500 shadow-sm drop-shadow-lg border border-[#e0e9f7] dark:border-[rgb(30,30,30)] flex items-center justify-center mx-auto">
+    <div className="fixed top-[1/2] left-[1/2] bottom-0 flex items-center justify-center">
+      <div className="relative w-full lg:w-[400px] h-[70px] bg-white dark:bg-primaryDark rounded-[10px] shadow-gray-500 shadow-sm drop-shadow-lg border-[2px] lg:border-[1px] border-[#e0e9f7] dark:border-[rgb(30,30,30)] flex items-center justify-center mx-auto">
         <ul className="w-full px-3 flex items-center justify-between">
           {navigation.map((nav, index) => (
             <li
