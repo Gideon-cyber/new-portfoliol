@@ -8,11 +8,28 @@ import Hero from "../components/Hero";
 import Navigation from "../components/Navigation";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+import Image from "next/image";
+import Loader from "../public/loader.gif";
 
 import { useAppSelector } from "../redux/hooks";
 
 export default function Home() {
   const { mode } = useAppSelector((state) => state.user);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+
+  useEffect(() => {
+    router.events.on("routeChangeStart", () => {
+      setLoading(true);
+    });
+  });
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  });
   return (
     <div
       className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 ${
@@ -27,47 +44,55 @@ export default function Home() {
         />
       </Head>
 
-      <Header />
-      <section id="home" className="snap-start">
-        <Hero />
-      </section>
-      <section
-        id="about"
-        className="snap-center dark:bg-primaryDark dark:text-white"
-      >
-        <About />
-      </section>
-      <section
-        id="experience"
-        className="snap-center dark:bg-primaryDark dark:text-white"
-      >
-        <Experience />
-      </section>
-      <section
-        id="skills"
-        className="snap-start dark:bg-primaryDark dark:text-white"
-      >
-        <Skills />
-      </section>
-      <section
-        id="projects"
-        className="snap-start dark:bg-primaryDark dark:text-white"
-      >
-        <Projects />
-      </section>
-      <section
-        id="awards"
-        className="snap-start dark:bg-primaryDark dark:text-white"
-      >
-        <Awards />
-      </section>
-      <section
-        id="contact"
-        className="snap-start dark:bg-primaryDark dark:text-white"
-      >
-        <Contact />
-      </section>
-      <Navigation />
+      {loading ? (
+        <div className="w-full h-screen flex items-center justify-center">
+          <Image src={Loader} alt="loader" />
+        </div>
+      ) : (
+        <>
+          <Header />
+          <section id="home" className="snap-start">
+            <Hero />
+          </section>
+          <section
+            id="about"
+            className="snap-center dark:bg-primaryDark dark:text-white"
+          >
+            <About />
+          </section>
+          <section
+            id="experience"
+            className="snap-center dark:bg-primaryDark dark:text-white"
+          >
+            <Experience />
+          </section>
+          <section
+            id="skills"
+            className="snap-start dark:bg-primaryDark dark:text-white"
+          >
+            <Skills />
+          </section>
+          <section
+            id="projects"
+            className="snap-start dark:bg-primaryDark dark:text-white"
+          >
+            <Projects />
+          </section>
+          <section
+            id="awards"
+            className="snap-start dark:bg-primaryDark dark:text-white"
+          >
+            <Awards />
+          </section>
+          <section
+            id="contact"
+            className="snap-start dark:bg-primaryDark dark:text-white"
+          >
+            <Contact />
+          </section>
+          <Navigation />
+        </>
+      )}
     </div>
   );
 }
