@@ -119,7 +119,7 @@ const Experience = (props: Props) => {
         Experience
       </h2>
 
-      <div className="flex space-x-5 w-full px-2 lg:px-10 overflow-x-scroll snap-x snap-mandatory">
+      <div className="flex space-x-5 w-full px-2 lg:px-10 overflow-x-scroll snap-x snap-mandatory scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
         {Experiences.map((experience, index) => (
           <ExperienceCard
             key={index}

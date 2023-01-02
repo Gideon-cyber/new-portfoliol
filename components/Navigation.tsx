@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GrHomeRounded, GrMail } from "react-icons/gr";
 import { RiLightbulbFlashFill } from "react-icons/ri";
-import { FaHome, FaAward } from "react-icons/fa";
+import { FaHome, FaAward, FaBriefcase } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { BsPersonFill } from "react-icons/bs";
 import { TbNorthStar } from "react-icons/tb";
@@ -20,8 +20,8 @@ const Navigation = (props: Props) => {
     { icon: BsPersonFill, text: "About" },
     { icon: TbNorthStar, text: "Experience" },
     { icon: RiLightbulbFlashFill, text: "Skills" },
+    { icon: FaBriefcase, text: "Projects" },
     { icon: FaAward, text: "Awards" },
-    { icon: SiMinutemailer, text: "Contact" },
   ];
   return (
     <div className="sticky bottom-0 flex items-center justify-center">
