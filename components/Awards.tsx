@@ -69,7 +69,7 @@ const Awards = (props: Props) => {
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 1 }}
       className="h-screen flex flex-col relative max-w-full overflow-hidden lg:flex-row text-left justify-evenly mx-auto items-center z-0"
     >
       <h2 className="absolute top-[55px] lg:top-[80px] tracking-[20px] text-[#a1bbdf] text-xl lg:text-2xl uppercase text-center dark:text-gray-500">
@@ -83,7 +83,7 @@ const Awards = (props: Props) => {
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1.5 }}
+              transition={{ duration: 0.3 }}
               key={index}
               className="h-[150px] w-full lg:w-[400px] bg-[#f2f6fc] dark:bg-[#292929] flex items-center hover:cursor-pointer hover:shadow-lg hover:scale-105 transition-all duration-500 ease-in-out"
               onClick={() => setSelected(index)}
@@ -103,7 +103,7 @@ const Awards = (props: Props) => {
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1.4 }}
+          transition={{ duration: 1 }}
           className="flex items-center justify-center h-[324px] w-[80%] lg:w-[400px] border-[4px] border-[#f2f6fc] dark:border-[#f2f6fc]/30 shadow"
         >
           {displayContent(selected)}

@@ -32,7 +32,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -85,7 +85,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -140,7 +140,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image src={Era} alt="project" className="w-[350px] lg:w-[500px]" />
@@ -184,7 +184,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -245,7 +245,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -308,7 +308,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -367,7 +367,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
@@ -413,7 +413,7 @@ const Projects = (props: Props) => {
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2 }}
+            transition={{ duration: 0.7 }}
             className="w-full flex items-center justify-center"
           >
             <Image
