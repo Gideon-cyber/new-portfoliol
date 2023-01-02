@@ -34,7 +34,7 @@ const Contact = (props: Props) => {
         Contact
       </h2>
 
-      <div className="flex flex-col space-y-5">
+      <div className="flex flex-col space-y-5 lg:space-y-3">
         <h4 className="lg:text-[24px] leading-[30px] font-semibold text-center">
           I have got just what you need,{" "}
           <span className="text-purple dark:text-[#8eb1e2]">
@@ -42,7 +42,7 @@ const Contact = (props: Props) => {
           </span>
         </h4>
 
-        <div className="space-y-3">
+        <div className="space-y-3 lg:space-y-1">
           {details.map((detail, index) => (
             <div
               key={index}

@@ -15,7 +15,7 @@
   }
 
   .list.active .indicator {
-    @apply translate-y-[-35px] transition-transform duration-500  bg-purple text-white border-[#e0e9f7];
+    @apply translate-y-[-35px] transition-transform duration-500  bg-purple text-white border-[#e0e9f7] dark:border-[#333333];
   }
 
   .list:hover .navIcon {
@@ -39,6 +39,6 @@
   }
 
   .contactInput {
-    @apply outline-none bg-purple/10 rounded-sm border-b px-3 py-2 lg:px-6 lg:py-4 border-[#a2bbdf] text-gray-500 placeholder-gray-500 transition-all focus:border-purple/70 focus:text-purple/40 hover:border-purple/40;
+    @apply outline-none bg-purple/10 rounded-sm border-b px-3 py-2 lg:px-6 lg:py-3 border-[#a2bbdf] text-gray-500 placeholder-gray-500 transition-all focus:border-purple/70 focus:text-purple/40 hover:border-purple/40;
   }
 }
