@@ -43,6 +43,7 @@ export default function Home() {
           name="description"
           content="Portfolio website for Gideon Nwokpor - Front-end Engineer"
         />
+        <link type="image/png" sizes="16x16" rel="icon" href="/favicon.png" />
       </Head>
 
       {loading ? (
