@@ -14,6 +14,7 @@ import Image from "next/image";
 import Loader from "../public/loader.gif";
 
 import { useAppSelector } from "../redux/hooks";
+import { GetStaticProps } from "next";
 
 export default function Home() {
   const { mode } = useAppSelector((state) => state.user);
@@ -96,3 +97,9 @@ export default function Home() {
     </div>
   );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {}, // will be passed to the page component as props
+  };
+};
