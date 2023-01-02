@@ -33,7 +33,7 @@ export default function Home() {
   });
   return (
     <div
-      className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 ${
+      className={`h-screen font-space snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scroll-smooth lg:scrollbar lg:scrollbar-track-gray-400/20 lg:scrollbar-thumb-purple/80 ${
         mode ? "dark" : ""
       }`}
     >

@@ -28,7 +28,7 @@ const Projects = (props: Props) => {
 
       <div className="relative space-x-2 overflow-x-scroll flex snap-x snap-mandatory z-20 scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
         {/*RealFocus Company Website*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -41,7 +41,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
               RealFocus Company Website
             </h4>
@@ -81,7 +81,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*Flybank Dashboard*/}
-        <div className="w-full  p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full  p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +94,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
               Flybank Dashboard
             </h4>
@@ -136,7 +136,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*Era Website*/}
-        <div className="w-full  p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full  p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -145,7 +145,7 @@ const Projects = (props: Props) => {
           >
             <Image src={Era} alt="project" className="w-[350px] lg:w-[500px]" />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
               ERA Decentralized Web App
             </h4>
@@ -180,7 +180,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*NFTMetaPool Website*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -193,7 +193,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
               NFTMetaPool Decentralized Web App
             </h4>
@@ -241,7 +241,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*Lighthouse HR company*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -254,7 +254,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
               LightHouse HR Company Website
             </h4>
@@ -304,7 +304,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*Crwn clothing E-commerce*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -317,7 +317,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
               Crwn Clothing E-commerce Web App
             </h4>
@@ -363,7 +363,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*SoundGasm Landing Page*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -376,7 +376,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
               Soundgasm Landing Page
             </h4>
@@ -409,7 +409,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
         {/*Easybank landingPage*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 items-center justify-center">
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -422,7 +422,7 @@ const Projects = (props: Props) => {
               className="w-[350px] lg:w-[500px]"
             />
           </motion.div>
-          <div className="space-y-3 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
             <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
               Easybank Landing page
             </h4>
