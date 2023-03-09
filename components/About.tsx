@@ -47,7 +47,7 @@ const About = (props: Props) => {
         </h4>
         <p className="text-[14px] leading-[18px] lg:text-base">
           I am a Frontend Engineer with a passion for building beautiful and
-          fast web applications. I have over 3 years of experience building web
+          fast web applications. I have over 4 years of experience building web
           applications with React, Next.js and Typescript.
           <br /> I am a self-taught developer and Technical writer who loves to
           learn new things and share knowledge with others. I am a team player
