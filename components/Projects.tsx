@@ -28,7 +28,7 @@ const Projects = (props: Props) => {
       </h2>
 
       <div className="relative space-x-2 overflow-x-scroll flex snap-x snap-mandatory z-20 scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
-        {/*RealFocus Company Website*/}
+        {/*Startup sphere Website*/}
         <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
             initial={{ y: -50, opacity: 0 }}
@@ -74,7 +74,7 @@ const Projects = (props: Props) => {
             <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
               <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
                 <span>
-                  <Link href="https://realfocus.com.ng" target="_blank">
+                  <Link href="https://startup-sphere.vercel.app/" target="_blank">
                     View Site
                   </Link>
                 </span>

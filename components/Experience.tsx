@@ -80,7 +80,7 @@ const Experience = (props: Props) => {
         Git,
         Npm,
       ],
-      date: "March 2022 - August 2022",
+      date: "January 2022 - August 2022",
       summary: [
         "Working on projects for clients in various industries",
         "Developed a custom design system for the company",
