@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import Flybank from "../public/flybank.png";
 import RealFocus from "../public/realfocus-1.png";
+import Startup from "../public/startup.png";
 import Era from "../public/era.png";
 import NFTMetaPool from "../public/nftmeta-2.png";
 import Crown from "../public/crown.png";
@@ -27,6 +28,60 @@ const Projects = (props: Props) => {
       </h2>
 
       <div className="relative space-x-2 overflow-x-scroll flex snap-x snap-mandatory z-20 scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
+        {/*RealFocus Company Website*/}
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="w-full flex items-center justify-center"
+          >
+            <Image
+              src={Startup}
+              alt="project"
+              className="w-[350px] lg:w-[500px]"
+            />
+          </motion.div>
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+            <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
+              Start-up Sphere Website
+            </h4>
+
+            <p className="text-[14px]">
+              I built a Decentralized crowdfunding web application called
+              Startup-sphere. Users can connect their wallet and interact with
+              the blockchain, create proposals for any idea they want, vote on
+              the ideas of their choosing, and fund them. It was built with{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                React.js
+              </span>
+              , and{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                TailwindCSS
+              </span>
+              .{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Web3.js
+              </span>{" "}
+              was used for the integration of the smart contract with the
+              website,{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Formik and Yup
+              </span>{" "}
+              was used to collect form data in other for users to create a
+              proposal.
+            </p>
+            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
+              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
+                <span>
+                  <Link href="https://realfocus.com.ng" target="_blank">
+                    View Site
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         {/*RealFocus Company Website*/}
         <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
