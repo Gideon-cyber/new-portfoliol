@@ -55,7 +55,7 @@ const About = (props: Props) => {
           I am a music lover and I love to play the guitar. I currently work as
           a Frontend Engineer at{" "}
           <span className="underline decoration-purple/50 font-semibold">
-            Watu Inc
+            Watu Global Inc
           </span>
           , a fintech startup in Ibadan, Nigeria.
         </p>
