@@ -11,6 +11,8 @@ import Crown from "../public/crown.png";
 import Lighthouse from "../public/lighthouse.png";
 import Soundgasm from "../public/Soundgasm2.jpg";
 import Easybank from "../public/Easybank.jpg";
+import Screen1 from "../public/screen1.png";
+import Screen2 from "../public/screen2.png";
 import { motion } from "framer-motion";
 
 type Props = {};
@@ -28,6 +30,92 @@ const Projects = (props: Props) => {
       </h2>
 
       <div className="relative space-x-2 overflow-x-scroll flex snap-x snap-mandatory z-20 scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
+        {/*Nft World App*/}
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col lg:flex-row space-x-3 items-center justify-center">
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="flex items-center justify-center w-1/2 lg:w-fit"
+          >
+            <Image
+              src={Screen1}
+              alt="project"
+              className="w-[100px] lg:w-[150px]"
+            />
+          </motion.div>
+          <div className="space-y-3 lg:space-y-0 w-[300px] lg:w-[350px] flex flex-col items-center">
+            <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
+              Nft-World Mobile App
+            </h4>
+
+            <p className="text-[14px]">
+              Nft-world App is a mobile application for viewing varying ranges
+              of users NFT. It was built using{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                React Native (expo)
+              </span>
+              and can be viewed on your expo-go app on your mobile device.
+            </p>
+            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
+              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
+                <span>
+                  <Link
+                    href="https://expo.dev/@gideon-cyber/nft-world-app"
+                    target="_blank"
+                  >
+                    View Site
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*Nft Market place App*/}
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col lg:flex-row lg:space-x-7 items-center justify-center">
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="flex items-center justify-center w-1/2 lg:w-fit"
+          >
+            <Image
+              src={Screen2}
+              alt="project"
+              className="w-[100px] lg:w-[150px]"
+            />
+          </motion.div>
+          <div className="space-y-3 lg:space-y-0 w-[300px] lg:w-[350px] flex flex-col items-center">
+            <h4 className="text-[20px] lg:text-[24px] font-semibold text-left lg:text-center">
+              Nft-Market-Place Mobile App
+            </h4>
+
+            <p className="text-[14px]">
+              Nft-Market-Place App is a mobile application UI for viewing and
+              purchasing your favorite NFTs. It was built using{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                React Native (expo)
+              </span>
+              and{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                React Navigation
+              </span>
+              . It can be viewed on your expo-go app on your mobile device.
+            </p>
+            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
+              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
+                <span>
+                  <Link
+                    href="https://expo.dev/@gideon-cyber/nft-marketplace-app"
+                    target="_blank"
+                  >
+                    View Site
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         {/*Startup sphere Website*/}
         <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
@@ -74,7 +162,10 @@ const Projects = (props: Props) => {
             <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
               <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
                 <span>
-                  <Link href="https://startup-sphere.vercel.app/" target="_blank">
+                  <Link
+                    href="https://startup-sphere.vercel.app/"
+                    target="_blank"
+                  >
                     View Site
                   </Link>
                 </span>

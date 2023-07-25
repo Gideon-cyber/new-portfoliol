@@ -11,7 +11,7 @@ import Skills from "../components/Skills";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import Loader from "../public/loader.gif";
+// import Loader from "../public/loader.gif";
 
 import { useAppSelector } from "../redux/hooks";
 import { GetStaticProps } from "next";
@@ -48,7 +48,7 @@ export default function Home() {
 
       {loading ? (
         <div className="w-full h-screen flex items-center justify-center">
-          <Image src={Loader} alt="loader" />
+          <Image src="/loader.gif" alt="loader" width={280} height={250} />
         </div>
       ) : (
         <div

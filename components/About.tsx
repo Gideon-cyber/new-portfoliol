@@ -48,7 +48,8 @@ const About = (props: Props) => {
         <p className="text-[14px] leading-[18px] lg:text-base">
           I am a Frontend Engineer with a passion for building beautiful and
           fast web applications. I have over 4 years of experience building web
-          applications with React, Next.js and Typescript.
+          applications with React, Next.js and Typescript and Mobile
+          Applications using React-Native.
           <br /> I am a self-taught developer and Technical writer who loves to
           learn new things and share knowledge with others. I am a team player
           and I love to work with people who are passionate about what they do.
@@ -62,7 +63,7 @@ const About = (props: Props) => {
         <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
           <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
             <span>
-              <a href="/GIDEON-res.pdf" download>
+              <a href="/Gid-res.pdf" download>
                 Resume
               </a>
             </span>

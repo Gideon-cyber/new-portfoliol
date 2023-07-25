@@ -16,6 +16,10 @@ import Html from "../public/html-5.svg";
 import Figma from "../public/figma.svg";
 import Firebase from "../public/firebase.svg";
 import Github from "../public/github.svg";
+import Nodejs from "../public/Node.js_logo.svg";
+import MongoDb from "../public/mongodb-icon.svg";
+import Express from "../public/expressjs-icon.svg";
+import ReactNative from "../public/react-native-1.svg";
 import Skill from "./Skill";
 
 type Props = {};
@@ -37,6 +41,10 @@ const Skills = (props: Props) => {
     { img: Html, direction: false },
     { img: Figma, direction: false },
     { img: Firebase, direction: false },
+    { img: Nodejs, direction: true },
+    { img: MongoDb, direction: true },
+    { img: Express, direction: true },
+    { img: ReactNative, direction: true },
   ];
   return (
     <motion.div
@@ -49,7 +57,7 @@ const Skills = (props: Props) => {
         Skills
       </h2>
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-5 gap-5">
         {SkillsIcons.map((skill, index) => (
           <Skill
             key={index}
