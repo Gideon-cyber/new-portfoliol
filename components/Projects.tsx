@@ -7,6 +7,7 @@ import RealFocus from "../public/realfocus-1.png";
 import Startup from "../public/startup.png";
 import Era from "../public/era.png";
 import NFTMetaPool from "../public/nftmeta-2.png";
+import Cronk from "../public/cronk.png";
 import Crown from "../public/crown.png";
 import Lighthouse from "../public/lighthouse.png";
 import Soundgasm from "../public/Soundgasm2.jpg";
@@ -30,6 +31,122 @@ const Projects = (props: Props) => {
       </h2>
 
       <div className="relative space-x-2 overflow-x-scroll flex snap-x snap-mandatory z-20 scroll-smooth scrollbar-track-gray-400/20 scrollbar-thumb-purple/80 scrollbar-thin">
+        {/*NFTMetaPool Website*/}
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="w-full flex items-center justify-center"
+          >
+            <Image
+              src={Cronk}
+              alt="project"
+              className="w-[350px] lg:w-[500px]"
+            />
+          </motion.div>
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+            <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
+              Cronkcro Web3 Website
+            </h4>
+
+            <p className="text-[14px]">
+              Served as lead Front-end Engineer for the Cronkcro project.
+              Cronkcro is a Decentralized meme-packed, fun-loving project built
+              on the Cronos chain. With community at its heart, it offers cool
+              NFT mint and innovative crypto experiences, all wrapped up in a
+              dank meme culture that everyone can enjoy. It was built with{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Next.js and TypeScript
+              </span>
+              ,{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Tailwind CSS
+              </span>{" "}
+              and{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Redux
+              </span>{" "}
+              used for state management in other to make the app scalable.
+            </p>
+            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
+              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
+                <span>
+                  <Link
+                    href="https://cronk-landingpage.vercel.app/"
+                    target="_blank"
+                  >
+                    View Site
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*NFTMetaPool Website*/}
+        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
+          <motion.div
+            initial={{ y: -50, opacity: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            className="w-full flex items-center justify-center"
+          >
+            <Image
+              src={NFTMetaPool}
+              alt="project"
+              className="w-[350px] lg:w-[500px]"
+            />
+          </motion.div>
+          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
+            <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
+              NFTMetaPool Decentralized Web App
+            </h4>
+
+            <p className="text-[14px]">
+              Served as lead Front-end Engineer for the NFTMETAPool Dapp
+              project. ERA is a Decentralized Web app for minting the ERA token
+              used to fund disabled people from around the world. It was built
+              with{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                React.js
+              </span>
+              ,{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                SCSS
+              </span>{" "}
+              and{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Redux
+              </span>{" "}
+              used for state management in other to make the app scalable. Other
+              libraries used include{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Ether.js
+              </span>
+              ,{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                Web3.js
+              </span>
+              ,{" "}
+              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
+                day.js
+              </span>{" "}
+              amongst others.
+            </p>
+            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
+              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
+                <span>
+                  <Link
+                    href="https://staking-front-vandal-prog.vercel.app/home"
+                    target="_blank"
+                  >
+                    View Site
+                  </Link>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         {/*Nft World App*/}
         <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col lg:flex-row space-x-3 items-center justify-center">
           <motion.div
@@ -325,67 +442,7 @@ const Projects = (props: Props) => {
             </div>
           </div>
         </div>
-        {/*NFTMetaPool Website*/}
-        <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
-          <motion.div
-            initial={{ y: -50, opacity: 0 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            className="w-full flex items-center justify-center"
-          >
-            <Image
-              src={NFTMetaPool}
-              alt="project"
-              className="w-[350px] lg:w-[500px]"
-            />
-          </motion.div>
-          <div className="space-y-3 lg:space-y-0 w-[350px] lg:w-auto lg:max-w-3xl flex flex-col items-center">
-            <h4 className="text-[20px] lg:text-[24px] font-semibold text-center lg:text-center">
-              NFTMetaPool Decentralized Web App
-            </h4>
 
-            <p className="text-[14px]">
-              Served as lead Front-end Engineer for the NFTMETAPool Dapp
-              project. ERA is a Decentralized Web app for minting the ERA token
-              used to fund disabled people from around the world. It was built
-              with{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                React.js
-              </span>
-              ,{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                SCSS
-              </span>{" "}
-              and{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                Redux
-              </span>{" "}
-              used for state management in other to make the app scalable. Other
-              libraries used include{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                Ether.js
-              </span>
-              ,{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                Web3.js
-              </span>
-              ,{" "}
-              <span className="text-purple dark:text-[#8eb1e2] font-bold p-1 cursor-pointer">
-                day.js
-              </span>{" "}
-              amongst others.
-            </p>
-            <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
-              <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
-                <span>
-                  <Link href="https://www.nftsmetapool.com/" target="_blank">
-                    View Site
-                  </Link>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
         {/*Lighthouse HR company*/}
         <div className="w-full p-6 flex-shrink-0 snap-center flex flex-col space-y-3 lg:space-y-0 items-center justify-center">
           <motion.div
