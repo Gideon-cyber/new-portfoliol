@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import ProfilePic from "../public/pictureprof.jpg";
+// import ProfilePic from "../public/pr";
+
+// import heic2any from "heic2any";
+
+// const convertHeicToJpeg = async (heicFile: any) => {
+//   fetch("/profpic.HEIC")
+//     .then((res) => res.blob())
+//     .then((blob) =>
+//       heic2any({
+//         blob,
+//       })
+//     )
+//     .then((conversionResult) => {
+//       console.log(conversionResult);
+//     })
+//     .catch((e) => {
+//       console.log(e);
+//     });
+// };
 
 type Props = {};
 
@@ -16,6 +35,10 @@ const Hero = (props: Props) => {
     loop: true,
     delaySpeed: 2000,
   });
+
+  // useEffect(() => {
+  //   convertHeicToJpeg(ProfilePic);
+  // }, []);
   return (
     <div
       className={`h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden dark:bg-primaryDark`}

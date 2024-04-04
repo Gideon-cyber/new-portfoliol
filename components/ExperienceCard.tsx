@@ -29,7 +29,7 @@ const ExperienceCard = ({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         src={image}
-        className="w-[100px] rounded-full object-cover object-center"
+        className="h-[100px] rounded-full object-cover object-center"
         alt="logo"
       />
 
