@@ -25,9 +25,9 @@ const About = (props: Props) => {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        src="/aboutpic.jpg"
+        src="/picc3.jpg"
         alt="profile pic"
-        className="rounded-full mb-3 lg:mb-0 flex-shrink-0 w-32 h-32 md:w-56 md:h-56 object-cover lg:rounded-lg lg:w-64 lg:h-95 xl:w-[400px] xl:h-[400px] mx-auto lg:mx-0 lg:mr-10"
+        className="rounded-full mb-3 lg:mb-0 flex-shrink-0 w-32 h-32 md:w-56 md:h-56 object-cover object-top lg:rounded-lg lg:w-64 lg:h-95 xl:w-[400px] xl:h-[400px] mx-auto lg:mx-0 lg:mr-10"
       />
 
       <motion.div

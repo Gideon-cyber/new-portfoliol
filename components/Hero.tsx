@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
-import ProfilePic from "../public/pictureprof.jpg";
+import ProfilePic from "../public/pic.jpg";
 // import ProfilePic from "../public/pr";
 
 // import heic2any from "heic2any";
