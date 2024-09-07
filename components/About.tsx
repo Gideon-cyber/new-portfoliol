@@ -47,7 +47,7 @@ const About = (props: Props) => {
         </h4>
         <p className="text-[14px] leading-[18px] lg:text-base">
           I am an accomplished Software Engineer with 5 years of experience in designing and developing innovative web and mobile solutions. My expertise spans a range of technologies, including HTML, CSS, JavaScript, TypeScript, and modern front-end frameworks such as React.js and Next.js. On the backend, I am proficient in frameworks like Node.js, Express.js, and Nest.js, allowing me to build seamless, full-stack applications.
-          <br /> Currently, I serve as a Lead Front-end Engineer at 
+          <br /> Currently, I serve as a Lead Front-end Engineer at  
 
 
           <span className="underline decoration-purple/50 font-semibold">
@@ -58,7 +58,7 @@ const About = (props: Props) => {
         <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
           <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
             <span>
-              <a href="/Gid-res.pdf" download>
+              <a href="/Gid-cv.pdf" download>
                 Resume
               </a>
             </span>
