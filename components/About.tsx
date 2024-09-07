@@ -46,19 +46,14 @@ const About = (props: Props) => {
           background!
         </h4>
         <p className="text-[14px] leading-[18px] lg:text-base">
-          I am a Frontend Engineer with a passion for building beautiful and
-          fast web applications. I have over 4 years of experience building web
-          applications with React, Next.js and Typescript and Mobile
-          Applications using React-Native.
-          <br /> I am a self-taught developer and Technical writer who loves to
-          learn new things and share knowledge with others. I am a team player
-          and I love to work with people who are passionate about what they do.
-          I am a music lover and I love to play the guitar. I currently work as
-          a Frontend Engineer at{" "}
+          I am an accomplished Software Engineer with 5 years of experience in designing and developing innovative web and mobile solutions. My expertise spans a range of technologies, including HTML, CSS, JavaScript, TypeScript, and modern front-end frameworks such as React.js and Next.js. On the backend, I am proficient in frameworks like Node.js, Express.js, and Nest.js, allowing me to build seamless, full-stack applications.
+          <br /> Currently, I serve as a Lead Front-end Engineer at 
+
+
           <span className="underline decoration-purple/50 font-semibold">
-            Watu Global Inc
+            Bytelabs Technologies
           </span>
-          , a fintech startup in Ibadan, Nigeria.
+          , where I lead a team of developers and focus on creating high-quality, responsive user interfaces. One of my key achievements includes implementing front-end interfaces using Next.js, which resulted in a 40% improvement in user experience and overall responsiveness.
         </p>
         <div className="w-[120px] h-[32px] border-[2px] border-purple rounded-[8px] relative">
           <div className="w-full h-[32px] flex items-center justify-center bg-purple rounded-[8px] text-white absolute right-[4px] top-[4px] text-[14px] leading-[18px] lg:text-base">
