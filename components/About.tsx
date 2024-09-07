@@ -49,7 +49,7 @@ const About = (props: Props) => {
           I am an accomplished Software Engineer with 5 years of experience in designing and developing innovative web and mobile solutions. My expertise spans a range of technologies, including HTML, CSS, JavaScript, TypeScript, and modern front-end frameworks such as React.js and Next.js. On the backend, I am proficient in frameworks like Node.js, Express.js, and Nest.js, allowing me to build seamless, full-stack applications.
           <br /> Currently, I serve as a Lead Front-end Engineer at  
 
-
+          {" "}
           <span className="underline decoration-purple/50 font-semibold">
             Bytelabs Technologies
           </span>
